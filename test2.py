@@ -4,4 +4,9 @@ def test():
   print("hello")
   test()
 
-test()
+cnt = 0
+while True:
+  test()
+  cnt += 1
+  if cnt == 4:
+    break
